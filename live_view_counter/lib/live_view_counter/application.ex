@@ -14,6 +14,7 @@ defmodule LiveViewCounter.Application do
       LiveViewCounterWeb.Telemetry,
       # Start the PubSub system
       {Phoenix.PubSub, name: LiveViewCounter.PubSub},
+      LiveViewCounter.Presence,
       # Start Finch
       {Finch, name: LiveViewCounter.Finch},
       # Start the Endpoint (http/https)
